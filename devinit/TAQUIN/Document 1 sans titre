@@ -1,0 +1,39 @@
+	int[][] grille1 = { {1,2,3},
+			    {4,5,6},
+			    {7,8,0},
+	};
+	
+	int[][] grille2 = { {1,0,2},
+			    {4,5,3},
+			    {7,8,6}		 
+	};
+
+	int [][] grille3 = { {1,2,3},
+			     {4,5,6},
+			     {7,8,0}		 
+	};
+	
+	Ut.afficher(grille1);
+	Ut.afficherSL("---------------------------");
+	
+	Ut.afficher(grille2);
+	Ut.afficherSL("---------------------------");
+
+
+	//======= Tests de sontDansLOrdre(i1,j1,i2,j2)
+
+	boolean res;
+	res = sontDansLOrdre(1,0,4,0);
+	Ut.afficherSL("Le carreau en position (1,0) est-il inférieur à celui en position (4,0) ? " + res);
+	
+	//======= Tests de positionTrou
+
+	int[] trou1;
+	trou1 = positionTrou(grille1);
+	Ut.afficherSL("Les coordonnées du trou sont x=" + trou1[0] + " ; y=" + trou1[1]);
+
+	//======= Tests de estGagnant
+
+	boolean res2;
+	res2 = estGagnant(grille1);
+	Ut.afficherSL("Le taquin 1 (grille1) est solution ? " + res2);

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TD5</title>
+        <meta charset="UTF-8">
+        <link href="css/general.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+        </header>
+        <main>
+            <form action="sendToMySecondYearInIut.php" method="post">
+                <fieldset>
+                    <legend>Informations personnelles</legend>
+                <label for="surname">Nom*</label>
+                <input id="surname" name="uname" type="text" required>
+                <div>
+                    </p>
+                    <p>Séléctionner votre sexe</p>
+                    <input type="radio" id="femme" name="sexe"  />
+                    <label for="femme">Femme</label>
+                </div>
+
+                <div>
+                    </p>
+                    <input type="radio" id="homme" name="sexe"  />
+                    <label for="homme">Homme</label>
+                </div>
+                <div>
+                    </p>
+                    <input type="date" id="date" name="date" />
+                    <label for="date">Date de naissance</label>
+                </div>
+                <div>
+                    </p>
+                    <input placeholder="blablabla@gmail.com" type="email" id="email" name="email" required   />
+                    <label for="email">Email*</label>
+                </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Sports de combat</legend>
+                <div>
+                    </p>
+                    <input type="number" id="number" name="number" min="0" max="5"  />
+                    <label for="number">Niveau de karaté</label>
+                </div>
+                <div>
+                    </p>
+                    <p>Séléctionner votre niveau d'engagement</p>
+                    <input type="radio" id="basique" name="engagement"  />
+                    <label for="basique">basique 5$</label>
+                </div>
+
+                <div>
+                    </p>
+                    <input type="radio" id="Gold" name="engagement"  />
+                    <label for="Gold">Gold 15$</label>
+                </div>
+                <div>
+                    </p>
+                    <input type="radio" id="Tatane in your face" name="engagement"  />
+                    <label for="Tatane in your face">Tatane in your face 60$</label>
+                </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Inscription</legend>
+                <div>
+                    </p>
+                    <input type="checkbox" id="condition" name="condition" required  />
+                    <label for="condition">J’ai bien lu les clauses que je n’ai pas lues*</label>
+                </div>
+                <select name="pays" id="pays">
+                    <option value="fr">France</option>
+                    <option value="usa">U.S.A</option>
+                    <option value="ch">Chine</option>
+                    <option value="vn">Viêt Nam</option>
+                </select>
+                <label for="pays">pays</label>
+                </p>
+                <select name="Art" id="Art">
+                    <option value="K">Kung fu</option>
+                    <option value="ka">Karaté</option>
+                    <option value="F">Full-contact</option>
+                </select>
+                <label for="Art">Art martiaux préféré</label>
+                </p>
+                <textarea id="texte"></textarea>
+                <label for="texte">Message pour chuck</label>
+
+                </p>
+                <div>
+                    </p>
+                    <input type="password" id="password" name="password" pattern="[a-z]{8,}"  required/>
+                    <label for="password">Mot de passe*</label>
+                </div>
+                </fieldset>
+                </p>
+                <input type="submit" value="Envoyer">
+
+
+
+            </form>
+            <article>
+            </article>
+        </main>
+    </body>
+</html>

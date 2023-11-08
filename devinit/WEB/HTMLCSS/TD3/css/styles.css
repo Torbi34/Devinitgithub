@@ -1,0 +1,82 @@
+body {
+    background-color:#838892;
+    width:600px;
+    line-height:150%;
+    text-indent:5px;
+    text-align: center
+
+
+}
+h3 {
+    border:solid 1px #CCCCCC;;
+    background-color:#838892;
+    text-align:center;
+
+
+
+}
+#img1{
+    margin-right: 5px;
+    float: left;
+    height: auto    ;
+    width: auto;
+}
+@font-face {
+    font-family: myFontName;
+    src: url(/home/depinfo/Documents/devinit/WEB/HTMLCSS/TD2/css/alex-brush/AlexBrush-Regular.ttf);
+}
+h2 {
+    padding: 10px;
+    background-color:#838892;
+    text-align:center;
+    font-family: myFontName;
+}
+
+.pair{
+    background-color: #5BBDBF;
+}
+.impair{
+    background-color: #FF5850;
+}
+#beware{
+    margin-right: 5px;
+    float: right;
+    height:300px;
+}
+span.skill{
+    padding: 5px;
+    color:red
+}
+.skill{
+    font-style:italic;
+    color: green;
+}
+table{
+    vertical-align : middle;
+    text-align: center;
+
+}
+tr:nth-child(odd){
+    text-align: center;
+    background-color: white;
+
+}
+tr:nth-child(even) {
+    text-align: center;
+    background-color: #CCC  ;
+}
+th {
+    background-color: #00AAFF;
+}
+p{
+    margin: 30px;
+    clear:both;
+}
+
+
+a:link {color: cornflowerblue;}
+a:visited {color: blue;}
+a:hover {color: orange;}
+
+
+
